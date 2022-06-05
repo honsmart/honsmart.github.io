@@ -1,11 +1,11 @@
 /* -------------------------------------------
 
-Name: 		Arter
+Name: 		Adegboye Adedeji Opeyemi Portfolio
 Version:  1.0
-Author:		Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
+Author:		Adegboye Adedeji Opeyemi
+Portfolio:  https://honsmart.github.io
 
-p.s. I am available for Freelance hire (UI design, web development). mail: miller.themes@gmail.com
+p.s. I am available for Freelance hire (Desktop App, Mobile App, web development). mail: adegboyeopeyemi580@gmail.comom
 
 ------------------------------------------- */
 $(function() {
@@ -109,7 +109,7 @@ $(function() {
     delay: 2500,
     trailWidth: 7,
     step: function(state, circle) {
-      var value = Math.round(circle.value() * 100);
+      var value = 9;
       if (value === 0) {
         circle.setText('');
       } else {
@@ -118,7 +118,7 @@ $(function() {
     }
   });
 
-  bar.animate(1);
+  bar.animate(.1);
 
   var bar = new ProgressBar.Circle(circleprog2, {
     strokeWidth: 7,
@@ -127,7 +127,7 @@ $(function() {
     delay: 2600,
     trailWidth: 7,
     step: function(state, circle) {
-      var value = Math.round(circle.value() * 100);
+      var value = 100;
       if (value === 0) {
         circle.setText('');
       } else {
@@ -136,7 +136,7 @@ $(function() {
     }
   });
 
-  bar.animate(0.9);
+  bar.animate(0.99);
 
   var bar = new ProgressBar.Circle(circleprog3, {
     strokeWidth: 7,
@@ -145,7 +145,7 @@ $(function() {
     delay: 2700,
     trailWidth: 7,
     step: function(state, circle) {
-      var value = Math.round(circle.value() * 100);
+      var value = Math.round(9);
       if (value === 0) {
         circle.setText('');
       } else {
@@ -154,7 +154,7 @@ $(function() {
     }
   });
 
-  bar.animate(0.7);
+  bar.animate(0.1);
 
   var bar = new ProgressBar.Line(lineprog1, {
     strokeWidth: 1.72,
@@ -184,11 +184,11 @@ $(function() {
       height: '100%'
     },
     step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
+      bar.setText('99 %');
     }
   });
 
-  bar.animate(.95);
+  bar.animate(.99);
 
   var bar = new ProgressBar.Line(lineprog3, {
     strokeWidth: 1.72,
@@ -201,11 +201,11 @@ $(function() {
       height: '100%'
     },
     step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
+      bar.setText('97 %');
     }
   });
 
-  bar.animate(.75);
+  bar.animate(.97);
 
   var bar = new ProgressBar.Line(lineprog4, {
     strokeWidth: 1.72,
@@ -218,11 +218,11 @@ $(function() {
       height: '100%'
     },
     step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
+      bar.setText('80 %');
     }
   });
 
-  bar.animate(.65);
+  bar.animate(.80);
 
   var bar = new ProgressBar.Line(lineprog5, {
     strokeWidth: 1.72,
