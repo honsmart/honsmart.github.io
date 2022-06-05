@@ -5,7 +5,7 @@ Version:  1.0
 Author:		Adegboye Adedeji Opeyemi
 Portfolio:  https://honsmart.github.io
 
-p.s. I am available for Freelance hire (Desktop App, Mobile App, web development). mail: 
+p.s. I am available for Freelance hire (Desktop App, Mobile App, web development). mail: adegboyeopeyemi580@gmail.com
 
 ------------------------------------------- */
 /*--------------------------------------------
@@ -1126,29 +1126,7 @@ info bar
             content: '%';
             position: absolute;
             right: -7px; }
-  /* line 236, ../scss/_info-bar.scss */
-  .art-info-bar .art-hard-skills .art-hard-skills-item {
-    margin-bottom: 15px;
-    position: relative; }
-    /* line 240, ../scss/_info-bar.scss */
-    .art-info-bar .art-hard-skills .art-hard-skills-item .art-skill-heading {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between; }
-    /* line 245, ../scss/_info-bar.scss */
-    .art-info-bar .art-hard-skills .art-hard-skills-item .art-line-progress {
-      width: 100%; }
-      /* line 248, ../scss/_info-bar.scss */
-      .art-info-bar .art-hard-skills .art-hard-skills-item .art-line-progress .progressbar-text {
-        width: 100%;
-        text-align: right;
-        top: -6px !important;
-        font-size: 11px;
-        color: #8c8c8e !important; }
-  /* line 259, ../scss/_info-bar.scss */
+
   .art-info-bar .art-knowledge-list {
     padding-left: 0; }
     /* line 262, ../scss/_info-bar.scss */
